@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(20, 20, 54);
+    width:auto;
+    
+}
+header{
+    margin:auto;
+    width: 90%;
+    height:10%;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color:white;
+    font-size:30px;
+}
+header .levels{
+   display:inline;
+   cursor:pointer;
+   font-size:30px
+}
+.active{
+    position:absolute;
+    left:5%;
+    width:100px;
+    height:200px;
+    background-color:rgb(23, 21, 21);
+    border-radius:3px;
+    border-style:solid;
+    border-color:rgb(23, 21, 21);
+    border-width:2px;
+}
+.active p {
+    padding:23px;
+    width:100%;
+    padding:auto;
+    text-align:center;
+    color:white;
+    font-size:16px;
+}
+header .greeting{
+    color:white;
+    font-size:30px;
+}
+header .score{
+    color:white;
+    font-size:30px;
+    display:inline-block;
+}
+.container1{
+    margin-top:100px;
+    width:100%;
+}
+.container1 .level-text{
+    width:100%;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+}
+.container2{
+    padding:18px;
+    z-index: 1;
+    background-color: rgb(10, 10, 31);;
+    margin-top: 50px;
+    margin-left:35%;
+    width:500px;
+    height:600px;
+    color:white;
+    font-size:40px;
+}
+.container2 .questions{
+    width:100%;
+    text-align:center;
+    height:180px;
+    font-size: 40px;
+}
+.container2 .check-response{
+    width:100%;
+    margin-top:20px;
+    height:180px;
+    text-align:center;
+}
+.container2 .controllers{
+    width:100%;
+    margin-top:20px;
+    height:auto;  
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly; 
+}
+#yes{
+    font-size:20px;
+    width: 126px;
+    padding:20px;
+    color: white;
+    text-align:center;
+    background-color:rgb(28, 113, 7);
+    cursor:pointer;
+    outline:none;
+    height:auto;
+    border-radius: 8px;
+}
+#no{
+    font-size:20px;
+    width: 126px;
+    margin-left:15px;
+    padding:20px;
+    color: white;
+    text-align:center;
+    background-color:rgb(183, 12, 0);
+    cursor:pointer;
+    outline:none;
+    height:auto;
+    border-radius: 8px;
+}
+#next{
+    font-size:20px;
+    width:auto;
+    padding:20px;
+    color: white;
+    text-align:center;
+    cursor:pointer;
+    height:auto;
+    border-radius: 8px;
+}
